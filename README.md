@@ -1,1 +1,1 @@
-Each brach is going to be a different day ;)
+Each day is going to be in a different folder in a different class.
