@@ -48,19 +48,11 @@ namespace CodeAdvent2k24.Day1
                         break;
                     }
                 }
-
+                
                 Console.WriteLine(result);
             }
         }
 
-        delegate bool ReportValidityPolicy(List<int> report);
-        static ReportValidityPolicy OnlyIncreasing => input => false;
-        static ReportValidityPolicy OnlyDecreasing => input => false;
-        static ReportValidityPolicy DiffBetween(int min, int max) => input => false;
-
-        public static void SpecificationImplementation_Delegate()
-        {
-
-        }
     }
+    
 }
